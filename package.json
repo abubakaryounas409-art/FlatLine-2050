@@ -1,0 +1,27 @@
+{
+  "name": "flatline-2050",
+  "version": "1.0.0",
+  "description": "FLATLINE: 2050 — a Three.js action/racing game",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "optimize": "gltf-transform optimize"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.21.0",
+    "gsap": "^3.15.0",
+    "howler": "^2.2.4",
+    "postprocessing": "^6.39.5",
+    "three": "^0.186.1",
+    "three.quarks": "^0.17.1"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "^4.5.1",
+    "vite": "^8.3.4"
+  },
+  "private": true
+}
